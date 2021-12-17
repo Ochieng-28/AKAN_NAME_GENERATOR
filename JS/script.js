@@ -61,6 +61,6 @@ akanNameForm.addEventListener("submit", (e) => {
         akanName = femaleAkanNames[6];
     }
 
-    let result = document.getElementById("Output-result").innerHTML = "You were born on a " + bornDay + " so your akan name is " + akanName + "!"
+    let result = document.getElementById("Output-result").innerHTML = "You were born on a " + bornDay + " and so your akan name is " + akanName + "!"
     document.getElementById("akanNameForm").reset();
 });

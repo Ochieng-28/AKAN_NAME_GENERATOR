@@ -7,19 +7,44 @@ body {
     background-size: cover;
    }
 .jumbotron {
-    height: 50px;
-    background-color: #2C3539;
+    height: 25px;
+    background-color: #16E2F5;
     color: blue;
     padding-top: 10px;
     margin-bottom: 0;
-    border-radius: 0px;
+    border-radius: 50%;
     }
-    .container-fluid {
-        width: 100%;
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-right: auto;
-        margin-left: auto;
-        }
+.container-fluid {
+    width: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    }
         
-    
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+.card-title {
+    margin-bottom: 0.75rem;
+    margin-left: 22px;
+    }
+#Output-result {
+    height: 100px;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: dotted rgb(0, 211, 28);
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFA500;
+    font-style: italic;
+    text-align: center;
+    }
+                
+            
