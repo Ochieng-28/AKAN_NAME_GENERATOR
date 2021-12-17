@@ -77,7 +77,25 @@ h4 {
     justify-content: center;
     font-style: italic;
     font-weight: 700;
-    } 
+    }
+input[type="submit"]{
+    background-color: green;
+    width: 20%;
+   }    
+label {
+display: inline-block;
+margin-bottom: 0.5rem;
+font-size: 20px;
+color: green;
+}     
+    
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }    
         
                 
             
