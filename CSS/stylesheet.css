@@ -21,7 +21,11 @@ body {
     margin-right: auto;
     margin-left: auto;
     }
-        
+p{ 
+    color: #333;
+    font: italic;
+    font-size: 20px;
+}      
 .row {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -53,6 +57,29 @@ h4 {
     font-style: italic;
     background: turquoise;
     }
-    
+.fillForm {
+    align-content: center;
+    }
+.form {
+    width: 100%;
+    margin-left: 20px;
+    }
+.footer {
+    height: 25px;
+    width: 100%;
+    background-color: #16E2F5;
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 700;
+    } 
+        
+                
+            
                 
             
