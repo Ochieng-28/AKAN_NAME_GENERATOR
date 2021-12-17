@@ -15,7 +15,7 @@ akanNameForm.addEventListener("submit", (e) => {
     dayOfTheWeek = parseInt(dayOfTheWeek);
     let akanNameForm;
     maleAkanNames = ["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
-    femaleAkanNames = ["Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua"];
+    femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",];
     let bornDay;
     if (dayOfTheWeek == 0 && gender == "male") {
         bornDay = "Saturday";
