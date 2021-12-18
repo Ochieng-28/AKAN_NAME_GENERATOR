@@ -44,9 +44,9 @@ p{
     background-color: transparent;
     border: dotted rgb(0, 211, 28);
     border-radius: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 22px;
-    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
     color: blue;
     font-style: italic;
     text-align: center;
