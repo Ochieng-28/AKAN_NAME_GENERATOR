@@ -44,8 +44,8 @@ p{
     background-color: transparent;
     border: dotted rgb(0, 211, 28);
     border-radius: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
     font-weight: 700;
     color: blue;
     font-style: italic;
@@ -57,8 +57,8 @@ p{
     }
     
     @keyframes blinker {
-    80% {
-        opacity: 0.3;
+    50% {
+        opacity: 0.4;
     }
     }   
 h4 {
