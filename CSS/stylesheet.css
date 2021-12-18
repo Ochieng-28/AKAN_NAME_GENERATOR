@@ -47,10 +47,20 @@ p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 700;
-    color: #FFA500;
+    color: blue;
     font-style: italic;
     text-align: center;
     }
+
+.blink {
+    animation: blinker 1s linear infinite;
+    }
+    
+    @keyframes blinker {
+    80% {
+        opacity: 0.3;
+    }
+    }   
 h4 {
     color: #333;
     font-size: 20px;
@@ -80,15 +90,16 @@ h4 {
     font-weight: 700;
     }
 input[type="submit"]{
-    background-color: green;
+    background-color: blue;
     width: 20%;
    }    
 label {
-display: inline-block;
-margin-bottom: 0.5rem;
-font-size: 20px;
-color: green;
-}     
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    font:bold;
+    color: blue;
+    }     
     
 @media screen and (min-width: 842px) {
     body{background-color: honeydew;
